@@ -8,8 +8,14 @@ However it wont fix the array being on multiple lines, quotes, etc.
 
 If you run `npx @biomejs/check . --write` it will fix all the problems fine.
 
-To install dependencies:
+Zed config is in `.zed/settings.json`
 
-```sh
-pnpm install
+In addition, I get this error when loading the workspace:
+
+```
+Language server error: biome
+
+oneshot canceled
+-- stderr--
+Error: `--config-path` is not expected in this context
 ```
