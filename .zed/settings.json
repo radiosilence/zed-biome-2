@@ -50,10 +50,7 @@
     "light": "One Light",
     "dark": "Zedokai"
   },
-  "wrap_guides": [
-    80,
-    100
-  ],
+  "wrap_guides": [80, 100],
   "format_on_save": "on",
   "languages": {
     "TypeScript": {
@@ -96,9 +93,7 @@
       }
     },
     "SCSS": {
-      "language_servers": [
-        "some-sass"
-      ]
+      "language_servers": ["some-sass"]
     },
     "JSON": {
       "formatter": {
@@ -128,7 +123,8 @@
     },
     "biome": {
       "settings": {
-        "require_config_file": true
+        "require_config_file": true,
+        "configuration_path": "./biome.json"
       }
     }
   }
